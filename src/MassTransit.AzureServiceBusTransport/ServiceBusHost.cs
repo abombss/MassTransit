@@ -80,6 +80,7 @@ namespace MassTransit.AzureServiceBusTransport
             {
                 TokenProvider = _settings.TokenProvider,
                 OperationTimeout = _settings.OperationTimeout,
+                TransportType = _settings.TransportType,
             };
 
             switch (_settings.TransportType)
